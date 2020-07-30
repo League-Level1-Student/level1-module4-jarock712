@@ -49,6 +49,7 @@ public class BookOfIllusions extends MouseAdapter {
 		String monkey = "monkey.jpg";
 		JLabel labelTwo = new JLabel();
 		labelTwo = loadImageFromComputer(monkey);
+		frame.add(labelTwo); 	
 		// 14. pack the frame
 		frame.pack();
 	}
